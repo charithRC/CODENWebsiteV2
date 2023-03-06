@@ -1,0 +1,4 @@
+1-coden with c changed in both header and main page - responsive\
+2-remove the dot that comes in middle, onload of the page
+3-crop the hompage a bit and gradient the color
+4-SEO - ,alttags,title,removeUnnecessary 

@@ -28,7 +28,13 @@
     --bs-dark: #1D1D27;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --primary: #2581C2;
+    --secondary: #3AD6E3;
+    --light: #F7FAFF;
+    --dark: #1D1D27;
+    /*default,old one  */
+    --dark2: #343a40;
 }
 
 *,
@@ -3441,14 +3447,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-    color: #2124B1;
-    border-color: #2124B1
+    color: #fff;
+    background-color: var(--secondary);
 }
 
 .btn-outline-primary:hover {
-    color: #fff;
-    background-color: #2124B1;
-    border-color: #2124B1
+    color: white;
+    background-color: var(--bs-gray-dark);
 }
 
 .btn-check:focus+.btn-outline-primary,
@@ -3481,14 +3486,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary {
-    color: #4777F5;
-    border-color: #4777F5
+    color: var(--secondary);
+    background-color:white
 }
 
 .btn-outline-secondary:hover {
-    color: #000;
-    background-color: #4777F5;
-    border-color: #4777F5
+    color: white;
+    background-color: var(--bs-gray-dark);
 }
 
 .btn-check:focus+.btn-outline-secondary,
@@ -8289,7 +8293,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #2124B1 !important
+    color: #2581C2 !important
 }
 
 .text-secondary {
@@ -8345,7 +8349,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #2124B1 !important
+    background-color: #2581C2 !important
 }
 
 .bg-secondary {
