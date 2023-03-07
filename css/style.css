@@ -115,6 +115,10 @@ h6,
 }
 
 @media (max-width: 991.98px) {
+    .mapsIframe{
+        width:100%;
+        height:150px;
+    }
     .topPaddingMedium{
         margin-top: 0px
     }
@@ -154,6 +158,10 @@ h6,
 }
 
 @media (min-width: 992px) {
+    .mapsIframe{
+        width:100%;
+        height:250px;
+    }
     .topPaddingMeduim{
         margin-top: 50px
     }
