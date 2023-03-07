@@ -2,3 +2,9 @@
 2-remove the dot that comes in middle, onload of the page
 3-crop the hompage a bit and gradient the color
 4-SEO - ,alttags,title,removeUnnecessary 
+
+
+include all techstacks that we take in about 
+FAQ
+We help business of every size - from entrepreneurs to iconic brand 
+Lets grow together

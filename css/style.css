@@ -115,6 +115,12 @@ h6,
 }
 
 @media (max-width: 991.98px) {
+    .topPaddingMedium{
+        margin-top: 0px
+    }
+    .topPaddingLarge{
+        margin-top: 0px
+    }
     .sticky-top.navbar-light {
         position: relative;
         background: #FFFFFF;
@@ -148,6 +154,12 @@ h6,
 }
 
 @media (min-width: 992px) {
+    .topPaddingMeduim{
+        margin-top: 50px
+    }
+    .topPaddingLarge{
+        margin-top: 150px
+    }
     .navbar-light {
         position: absolute;
         width: 100%;
